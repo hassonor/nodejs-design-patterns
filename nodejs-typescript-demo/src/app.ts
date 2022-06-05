@@ -1,12 +1,14 @@
-import express from 'express';
+import express, { Request, Response } from 'express'
+import {func} from "./test";
 
-const app = express();
-const port = 3000;
+const app = express()
+const PORT = process.env.PORT ||5000
 
-app.get('/', (req, res) => {
-    res.send('Hello World!');
-});
+console.log(func());
+app.get('/', (req: Request, res: Response) => {
+    res.json({ greeting: 'Hello world!' })
+})
 
-app.listen(port, () => {
-    return console.log(`Express is listening at http://localhost:${port}`);
-});
+app.listen(PORT, () => {
+    console.log(`🚀 server started at http://localhost:${PORT}`)
+})
