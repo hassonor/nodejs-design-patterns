@@ -1,5 +1,5 @@
 {
-  "name": "nodejs-design-patterns",
+  "name": "using-esm-with-nodejs",
   "version": "1.0.0",
   "description": "Node.js Design and Implement common patterns and techniques",
   "main": "dist\\app.js",
