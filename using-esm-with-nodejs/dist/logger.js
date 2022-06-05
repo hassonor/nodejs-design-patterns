@@ -1,10 +1,14 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.LEVELS = exports.DEFAULT_LEVEL = exports.log = void 0;
+exports.LEVELS = exports.DEFAULT_LEVEL = exports.info = exports.log = void 0;
 function log(message) {
-    console.log(message);
+    console.log(`${message}`);
 }
 exports.log = log;
+function info(message) {
+    log(`info: ${message}`);
+}
+exports.info = info;
 exports.DEFAULT_LEVEL = 'info';
 var LEVELS;
 (function (LEVELS) {

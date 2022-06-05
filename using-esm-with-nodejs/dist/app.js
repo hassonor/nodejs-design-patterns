@@ -28,7 +28,8 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const express_1 = __importDefault(require("express"));
 const logger_1 = __importStar(require("./logger"));
-(0, logger_1.log)("Hey From Or Hasson");
+(0, logger_1.log)("Hello From log message :)");
+(0, logger_1.info)("Hello From info message :)");
 const logger = new logger_1.default("DEFAULT");
 logger.log("Hello from Or Hasson");
 const app = (0, express_1.default)();
