@@ -1,0 +1,15 @@
+{
+  "name": "callback-and-events",
+  "version": "1.0.0",
+  "description": "The `EventEmitter` is exported from the events core modoule. The following code shows how we can obtain a reference to\r it.",
+  "main": "asynchornous-cps.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Or Hasson",
+  "license": "MIT",
+  "dependencies": {
+    "glob": "^8.0.3"
+  }
+}
