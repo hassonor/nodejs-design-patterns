@@ -1,6 +1,7 @@
 # Web Spider with cb best practices
 
-Web spider example to demostrate limited parallel asynchronous execution with Promises
+Web spider example to demonstrate limited parallel asynchronous execution with async/await and the consumer-producer
+pattern
 
 ## Run
 
