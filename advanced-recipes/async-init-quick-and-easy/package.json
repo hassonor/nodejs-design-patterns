@@ -1,0 +1,16 @@
+{
+  "name": "async-init-quick-and-easy",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Or Hasson",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14"
+  },
+  "engineStrict": true
+}
