@@ -105,3 +105,6 @@ nodejs-typescript-demo/dist
 
 # TernJS port file
 .tern-port
+
+# Idea Files
+/.idea
